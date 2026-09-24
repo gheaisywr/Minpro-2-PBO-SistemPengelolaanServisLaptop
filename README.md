@@ -77,7 +77,7 @@ data, tampilan, dan proses program dapat dipisahkan.
 Struktur package program adalah:
 
 ``` text
-ManajemenServisLaptop
+ServisLaptop
 │
 ├── model
 │   ├── Pelanggan.java
