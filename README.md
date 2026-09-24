@@ -167,7 +167,8 @@ Program menggunakan beberapa class yang memiliki fungsi berbeda.
 -   **Servis** → menyimpan informasi mengenai proses servis.
 -   **ServisController** → mengatur proses CRUD, validasi, dan
     penyimpanan data.
--   **MenuView** → menangani tampilan menu utama.
+-   **MenuView** → menangani tampilan menu utama.<img width="203" height="335" alt="Screenshot 2026-09-24 073227" src="https://github.com/user-attachments/assets/7df6a377-868c-46d5-a79f-70b18e41f2d5" />
+
 -   **ServisLaptop** → menjadi class utama untuk menjalankan
     program.
 
@@ -1130,13 +1131,15 @@ memasukkan data perangkat, kemudian memasukkan data servis.
 
 Data berhasil ditambahkan dengan ID servis `S005`.
 
-![Tambah Data Servis](screenshots/01-tambah-data.png)
+<img width="191" height="284" alt="Screenshot 2026-09-24 072932" src="https://github.com/user-attachments/assets/c0a6fb14-3ca1-4470-8cae-f133f97c61ef" />
+
 
 Program menampilkan:
 
 ``` text
 Data servis berhasil ditambahkan.
 ```
+<img width="193" height="113" alt="Screenshot 2026-09-24 072941" src="https://github.com/user-attachments/assets/039f0cc9-1106-442f-9aee-6024cf2a294a" />
 
 ------------------------------------------------------------------------
 
@@ -1147,7 +1150,15 @@ Pengguna memilih menu **2. Tampilkan Data Servis**.
 Program menampilkan dummy data yang sudah tersedia serta data `S005`
 yang baru ditambahkan.
 
-![Tampilkan Data Servis](screenshots/02-tampilkan-data.png)
+<img width="317" height="299" alt="Screenshot 2026-09-24 073011" src="https://github.com/user-attachments/assets/99b0f1b4-c1d9-4509-990c-2fa7b74a443b" />
+
+<img width="223" height="266" alt="Screenshot 2026-09-24 073022" src="https://github.com/user-attachments/assets/97e33d83-fe08-4bf5-a41d-a080cf4c5c61" />
+
+<img width="247" height="266" alt="Screenshot 2026-09-24 073044" src="https://github.com/user-attachments/assets/ca387ffd-3f01-4dc2-9f61-695215d54dc6" />
+
+<img width="212" height="262" alt="Screenshot 2026-09-24 073034" src="https://github.com/user-attachments/assets/b078e1fd-46d5-41f6-a570-a83f254903cb" />
+
+<img width="199" height="263" alt="Screenshot 2026-09-24 073057" src="https://github.com/user-attachments/assets/d833f3b1-4531-4167-9311-e9d7b2bda53e" />
 
 Data yang ditampilkan terdiri dari data pelanggan, perangkat, dan
 servis.
@@ -1160,19 +1171,20 @@ Pengguna memilih menu **3. Ubah Data Servis** dan memasukkan ID `S005`.
 
 Data ditemukan kemudian pengguna mengubah:
 
+<img width="203" height="335" alt="Screenshot 2026-09-24 073227" src="https://github.com/user-attachments/assets/0e4916c6-25d8-494a-b2fc-5304da16c39f" />
+
 ``` text
 Tanggal : 22-04-2026 → 23-04-2026
 Status  : Menunggu → Diproses
 Biaya   : Rp200000 → Rp205000
 ```
 
-![Ubah Data Servis](screenshots/03-ubah-data.png)
-
 Program menampilkan:
 
 ``` text
 Data servis berhasil diubah.
 ```
+<img width="215" height="155" alt="Screenshot 2026-09-24 073235" src="https://github.com/user-attachments/assets/04cc43e2-522a-4cec-a2b6-8113930cf348" />
 
 ------------------------------------------------------------------------
 
@@ -1183,7 +1195,8 @@ Pengguna memilih menu **5. Cari Data Servis** dan memasukkan ID `S005`.
 Program berhasil menemukan data dan menampilkan data terbaru setelah
 proses perubahan.
 
-![Cari Data Servis](screenshots/04-cari-data.png)
+<img width="185" height="335" alt="Screenshot 2026-09-24 073314" src="https://github.com/user-attachments/assets/8df42577-8a6c-4ed6-b5a4-8e3fa3be18c3" />
+
 
 ------------------------------------------------------------------------
 
@@ -1197,14 +1210,19 @@ Program menampilkan data yang akan dihapus dan meminta konfirmasi:
 Yakin ingin menghapus? (y/n):
 ```
 
+<img width="183" height="37" alt="Screenshot 2026-09-24 073441" src="https://github.com/user-attachments/assets/732ccaec-c116-46d6-9cb3-3cb2764a60de" />
+
 Ketika pengguna memilih `n`, program membatalkan penghapusan.
 
-![Konfirmasi Hapus](screenshots/05-konfirmasi-hapus.png)
+
+<img width="188" height="359" alt="Screenshot 2026-09-24 073419" src="https://github.com/user-attachments/assets/6cd50d26-20f7-471e-868b-519a503cd3ab" />
+
 
 Setelah data dihapus dengan pilihan `y`, data `S005` tidak lagi
 ditemukan ketika dilakukan pencarian.
 
-![Hasil Setelah Hapus](screenshots/06-hasil-hapus.png)
+<img width="167" height="74" alt="Screenshot 2026-09-24 073506" src="https://github.com/user-attachments/assets/5ec9c626-0658-4479-b42a-eb50b70e5bd9" />
+<img width="229" height="52" alt="Screenshot 2026-09-24 073552" src="https://github.com/user-attachments/assets/c57b3bcc-c34a-4816-9eab-22eb20d2130a" />
 
 ------------------------------------------------------------------------
 
@@ -1221,7 +1239,8 @@ No Telepon: fhuiah
 Nomor telepon hanya boleh berisi angka!
 ```
 
-![Validasi Nomor Telepon](screenshots/07-validasi-telepon-huruf.png)
+<img width="229" height="52" alt="Screenshot 2026-09-24 073552" src="https://github.com/user-attachments/assets/722e3fe4-98c2-471d-9b91-8badeeafa7e6" />
+
 
 Ketika nomor kurang dari 10 digit:
 
@@ -1230,7 +1249,7 @@ No Telepon: 0493204
 Nomor telepon harus 10-13 digit!
 ```
 
-![Validasi Panjang Telepon](screenshots/08-validasi-telepon-panjang.png)
+<img width="186" height="28" alt="Screenshot 2026-09-24 073607" src="https://github.com/user-attachments/assets/a300417f-1fa1-4ca6-9eee-adf3cfc493d9" />
 
 ------------------------------------------------------------------------
 
@@ -1243,7 +1262,7 @@ Pilih jenis perangkat: 3
 Pilihan hanya 1 atau 2!
 ```
 
-![Validasi Jenis Perangkat](screenshots/09-validasi-perangkat.png)
+<img width="144" height="62" alt="Screenshot 2026-09-24 073640" src="https://github.com/user-attachments/assets/89cf593f-e6eb-4047-997d-847ea6bdd29b" />
 
 ------------------------------------------------------------------------
 
@@ -1267,7 +1286,9 @@ program menampilkan:
 Format tanggal harus DD-MM-YYYY!
 ```
 
-![Validasi Format Tanggal](screenshots/10-validasi-format-tanggal.png)
+<img width="184" height="26" alt="format " src="https://github.com/user-attachments/assets/b8bd2c87-1f71-4deb-b837-9ed8a95df164" />
+![Uploading Screenshot 2026-09-24 073552.png…]()
+
 
 Program juga memeriksa bulan.
 
@@ -1278,7 +1299,7 @@ Contohnya:
 Bulan harus 01-12!
 ```
 
-![Validasi Bulan](screenshots/11-validasi-bulan.png)
+<img width="184" height="26" alt="bulan" src="https://github.com/user-attachments/assets/c160ea79-f2c7-4ff8-a969-d012e4d2f324" />
 
 ------------------------------------------------------------------------
 
@@ -1291,7 +1312,7 @@ Biaya: Rpabcde
 Biaya harus berupa angka!
 ```
 
-![Validasi Biaya](screenshots/12-validasi-biaya.png)
+<img width="149" height="53" alt="Screenshot 2026-09-24 074104" src="https://github.com/user-attachments/assets/0dc400a2-8a8b-4d89-9de3-9ea7f5bd134a" />
 
 ------------------------------------------------------------------------
 
@@ -1306,7 +1327,9 @@ Tanggal (DD-MM-YYYY):
 Tanggal tidak boleh kosong!
 ```
 
-![Validasi Input Kosong](screenshots/13-validasi-kosong.png)
+
+<img width="184" height="26" alt="kosong" src="https://github.com/user-attachments/assets/b8ad9abf-1157-409d-a7b5-f3d6de88445d" />
+
 
 ------------------------------------------------------------------------
 
