@@ -32,18 +32,6 @@ public class Perangkat {
         return kerusakan;
     }
 
-    public void setMerk(String merk) {
-        this.merk = merk;
-    }
-
-    public void setTipe(String tipe) {
-        this.tipe = tipe;
-    }
-
-    public void setKerusakan(String kerusakan) {
-        this.kerusakan = kerusakan;
-    }
-
     public void tampilkanInfo() {
 
         System.out.println("ID Perangkat : " + idPerangkat);

@@ -31,16 +31,4 @@ public class Pelanggan {
     public String getAlamat() {
         return alamat;
     }
-
-    public void setNama(String nama) {
-        this.nama = nama;
-    }
-
-    public void setNoTelepon(String noTelepon) {
-        this.noTelepon = noTelepon;
-    }
-
-    public void setAlamat(String alamat) {
-        this.alamat = alamat;
-    }
 }
