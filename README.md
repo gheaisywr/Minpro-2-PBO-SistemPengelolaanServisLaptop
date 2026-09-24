@@ -628,10 +628,90 @@ melakukan input terlebih dahulu.
 Program memiliki empat dummy data:
 
 ``` text
-S001 - James Chao
-S002 - Alya Putri
-S003 - Rizky Maulana
-S004 - Nadia Safitri
+=== DAFTAR DATA SERVIS ===
+================================
+           DATA SERVIS
+================================
+
+ID Pelanggan : P001
+Nama         : James Chao
+No Telepon   : 081234567801
+Alamat       : Jl. P. Antasari Samarinda
+
+Jenis        : Laptop
+ID Laptop    : L001
+Merk         : ASUS
+Tipe         : VivoBook 14
+Kerusakan    : Keyboard beberapa tombol tidak berfungsi
+
+ID Servis    : S001
+Tanggal      : 09-09-2026
+Status       : Diproses
+Biaya        : Rp250000
+================================
+
+================================
+           DATA SERVIS
+================================
+
+ID Pelanggan : P002
+Nama         : Alya Putri
+No Telepon   : 081234567802
+Alamat       : Jl. S. Parman Samarinda
+
+Jenis        : Komputer
+ID Komputer  : K001
+Merk         : Lenovo
+Tipe         : ThinkCentre
+Kerusakan    : Komputer tidak menyala
+
+ID Servis    : S002
+Tanggal      : 10-09-2026
+Status       : Menunggu
+Biaya        : Rp300000
+================================
+
+================================
+           DATA SERVIS
+================================
+
+ID Pelanggan : P003
+Nama         : Rizky Maulana
+No Telepon   : 081234567803
+Alamat       : Jl. Juanda Samarinda
+
+Jenis        : Laptop
+ID Laptop    : L002
+Merk         : Acer
+Tipe         : Aspire 5
+Kerusakan    : Layar laptop bergaris
+
+ID Servis    : S003
+Tanggal      : 11-09-2026
+Status       : Selesai
+Biaya        : Rp450000
+================================
+
+================================
+           DATA SERVIS
+================================
+
+ID Pelanggan : P004
+Nama         : Nadia Safitri
+No Telepon   : 081234567804
+Alamat       : Jl. Gatot Subroto Samarinda
+
+Jenis        : Komputer
+ID Komputer  : K002
+Merk         : HP
+Tipe         : ProDesk 400
+Kerusakan    : Hard disk bermasalah
+
+ID Servis    : S004
+Tanggal      : 12-09-2026
+Status       : Diproses
+Biaya        : Rp500000
+================================
 ```
 
 Contohnya:
@@ -1286,7 +1366,6 @@ Format tanggal harus DD-MM-YYYY!
 ```
 
 <img width="184" height="26" alt="format " src="https://github.com/user-attachments/assets/b8bd2c87-1f71-4deb-b837-9ed8a95df164" />
-![Uploading Screenshot 2026-09-24 073552.png…]()
 
 
 Program juga memeriksa bulan.
