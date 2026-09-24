@@ -167,8 +167,7 @@ Program menggunakan beberapa class yang memiliki fungsi berbeda.
 -   **Servis** → menyimpan informasi mengenai proses servis.
 -   **ServisController** → mengatur proses CRUD, validasi, dan
     penyimpanan data.
--   **MenuView** → menangani tampilan menu utama.<img width="203" height="335" alt="Screenshot 2026-09-24 073227" src="https://github.com/user-attachments/assets/7df6a377-868c-46d5-a79f-70b18e41f2d5" />
-
+-   **MenuView** → menangani tampilan menu utama.
 -   **ServisLaptop** → menjadi class utama untuk menjalankan
     program.
 
