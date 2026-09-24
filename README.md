@@ -92,8 +92,8 @@ ManajemenServisLaptop
 ├── view
 │   └── MenuView.java
 │
-└── com.mycompany.manajemenservislaptop
-    └── ManajemenServisLaptop.java
+└── com.mycompany.servislaptop
+    └── ServisLaptop.java
 ```
 
 ### Penjelasan Package
@@ -102,6 +102,8 @@ ManajemenServisLaptop
 
 Package `model` berisi class yang digunakan untuk merepresentasikan data
 dalam program.
+
+<img width="122" height="83" alt="image" src="https://github.com/user-attachments/assets/7b76992d-b12a-4258-b51c-5d26987bb13e" />
 
 Class yang terdapat di dalamnya yaitu:
 
@@ -114,6 +116,8 @@ Class yang terdapat di dalamnya yaitu:
 #### `controller`
 
 Package `controller` berisi `ServisController`.
+
+<img width="154" height="41" alt="image" src="https://github.com/user-attachments/assets/b49be567-189e-4bf2-bc34-29a2f8eafe0d" />
 
 Class ini bertugas mengatur proses utama pengelolaan data, seperti:
 
@@ -130,14 +134,18 @@ Class ini bertugas mengatur proses utama pengelolaan data, seperti:
 
 Package `view` berisi `MenuView`.
 
+<img width="118" height="28" alt="image" src="https://github.com/user-attachments/assets/24e6cb42-3d49-4491-bd69-e2b4d505ad21" />
+
 Class ini digunakan untuk menampilkan menu utama dan menerima pilihan
 menu dari pengguna.
 
 #### Main Program
 
-Class `ManajemenServisLaptop` digunakan sebagai titik awal ketika
+Class `ServisLaptop` digunakan sebagai titik awal ketika
 program dijalankan. Class ini membuat object `MenuView` kemudian
 menjalankan program.
+
+<img width="154" height="27" alt="image" src="https://github.com/user-attachments/assets/9a9feb7e-6e22-4afb-9a71-e2f9d49eabb5" />
 
 Dengan pembagian tersebut, setiap bagian program memiliki tugas yang
 lebih jelas dan program menjadi lebih terorganisir.
@@ -160,7 +168,7 @@ Program menggunakan beberapa class yang memiliki fungsi berbeda.
 -   **ServisController** → mengatur proses CRUD, validasi, dan
     penyimpanan data.
 -   **MenuView** → menangani tampilan menu utama.
--   **ManajemenServisLaptop** → menjadi class utama untuk menjalankan
+-   **ServisLaptop** → menjadi class utama untuk menjalankan
     program.
 
 Hubungan inheritance pada program dapat digambarkan sebagai berikut:
