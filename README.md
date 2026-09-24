@@ -69,7 +69,7 @@ mengurangi kesalahan ketika pengguna memasukkan data.
 
 ------------------------------------------------------------------------
 
-## 2. Struktur Package dan MVC
+## 2. Struktur Package dan MVC (Nilai Tambah)
 
 Program menggunakan struktur **MVC (Model-View-Controller)** agar bagian
 data, tampilan, dan proses program dapat dipisahkan.
@@ -389,7 +389,7 @@ tipe, dan kerusakan cukup didefinisikan pada `Perangkat`.
 
 ------------------------------------------------------------------------
 
-## 6. Polymorphism
+## 6. Polymorphism (Nilai Tambah)
 
 Program menerapkan **polymorphism melalui method overriding**.
 
